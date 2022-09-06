@@ -47,13 +47,58 @@ table {
 
 
 
-.parent{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(243, 182, 255);
-    z-index: 0;
+
+
+
+
+
+body{
+    text-align: center;
 }
+
+nav{
+    position: absolute;
+    width: 20vw;
+    height: 90vh;
+    background-color: rgb(255, 146, 146);
+    font-size: 300%;
+}
+
+.nav1{
+    left: 0;
+}
+.nav2{
+    right: 0;
+}
+
+header{
+    position: absolute;
+    width: 60vw;
+    height: 10vh;
+    background-color: rgb(152, 123, 255);
+    top: 0;
+    left: 20vw;
+    font-size: 300%;
+}
+
+footer{
+    position: absolute;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(152, 123, 255);
+    top: 90vh;
+    font-size: 300%;
+}
+
+.content{
+    position: absolute;
+    width: 60vw;
+    height: 80vh;
+    left: 20vw;
+    top: 10vh;
+    background-color: rgb(147, 255, 125);
+}
+
 .block{
     position: absolute;
     width: 9vw;
@@ -64,37 +109,37 @@ table {
     text-align: center;
 }
 .block1{
-    background-color: rgb(0, 255, 55);
+    background-color: rgb(253, 8, 253);
     z-index: 1;
-    left: 30vw;
+    left: 10vw;
     top: 30vh;
     z-index: 1;
 }
 .block2{
     background-color: rgb(250, 0, 0);
     z-index: 1;
-    left: 37.5vw;
+    left: 17.5vw;
     top: 22vh;
     z-index: 2;
 }
 .block3{
-    background-color: rgb(204, 0, 255);
+    background-color: rgb(255, 166, 0);
     z-index: 1;
-    left: 45vw;
+    left: 25vw;
     top: 30vh;
     z-index: 1;
 }
 .block4{
     background-color: rgb(238, 255, 0);
     z-index: 1;
-    left: 52.5vw;
+    left: 32.5vw;
     top: 22vh;
     z-index: 2;
 }
 .block5{
     background-color: rgb(0, 17, 255);
     z-index: 1;
-    left: 60vw;
+    left: 40vw;
     top: 30vh;
     z-index: 1;
 }
