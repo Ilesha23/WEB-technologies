@@ -1,0 +1,29 @@
+body{
+    font-size: 200%;
+    font-style: italic;
+    font-family: Tahoma;
+}
+
+input{
+    border-radius: 10%;
+    background-color: rgb(255, 149, 149);
+    height: 30px;
+    color: rgb(0, 255, 106);
+    box-shadow: 5px 5px 5px rgb(128, 68, 68);
+    font-size: 60%;
+}
+
+button{
+    background-color: rgb(183, 255, 142);
+    color: blue;
+    height: 50px;
+    width: 100px;
+    font-size: 60%;
+    box-shadow: 5px 5px 5px rgb(28, 28, 34);
+}
+
+table{
+    border-color: rgb(255, 0, 0);
+    background-color: rgb(255, 206, 231);
+    color: rgb(64, 54, 209);
+}
