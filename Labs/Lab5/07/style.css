@@ -1,0 +1,198 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    height: 100%;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+body{
+    text-align: center;
+}
+
+nav{
+    position: absolute;
+    width: 20vw;
+    height: 90vh;
+    background-color: rgb(255, 146, 146);
+    font-size: 300%;
+}
+
+.nav1{
+    left: 0;
+}
+.nav2{
+    right: 0;
+}
+
+header{
+    position: absolute;
+    width: 60vw;
+    height: 10vh;
+    background-color: rgb(152, 123, 255);
+    top: 0;
+    left: 20vw;
+    font-size: 300%;
+}
+
+footer{
+    position: absolute;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(152, 123, 255);
+    top: 90vh;
+    font-size: 300%;
+}
+
+.content{
+    position: absolute;
+    width: 60vw;
+    height: 80vh;
+    left: 20vw;
+    top: 10vh;
+    background-color: rgb(176, 255, 160);
+}
+
+.block{
+    position: absolute;
+    width: 18vw;
+    height: 33vh;
+    z-index: 0;
+    font-size: 300%;
+    line-height: 4.5em;
+    text-align: center;
+}
+.block1{
+    background-color: rgb(253, 8, 253);
+    z-index: 1;
+    left: 5vw;
+    top: 30vh;
+    z-index: 1;
+    opacity: 0.3;
+}
+.block2{
+    background-color: rgb(250, 0, 0);
+    z-index: 1;
+    left: 14vw;
+    top: 22vh;
+    z-index: 2;
+    opacity: 0.3;
+}
+.block3{
+    background-color: rgb(255, 166, 0);
+    z-index: 1;
+    left: 21.5vw;
+    top: 30vh;
+    z-index: 1;
+    opacity: 0.3;
+}
+.block4{
+    background-color: rgb(238, 255, 0);
+    z-index: 1;
+    left: 34vw;
+    top: 22vh;
+    z-index: 2;
+    opacity: 0.3;
+}
+.block5{
+    background-color: rgb(0, 17, 255);
+    z-index: 1;
+    left: 38vw;
+    top: 30vh;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+
+input{
+    position: absolute;
+    height: 10vh;
+    width: 20vw;
+}
+.i1, .i2{
+    left: -20vw;
+}
+.i2{
+    top: 20vh;
+}
+.i3, .i4, .i5{
+    right: -20vw;
+}
+.i4{
+    top: 20vh;
+}
+.i5{
+    top: 40vh;
+}
+
+.i1:checked + .block1{
+    opacity: 1;
+    z-index: 10;
+    transition: opacity 1s;
+}
+.i2:checked + .block2{
+    opacity: 1;
+    z-index: 10;
+    transition: opacity 1s;
+}
+.i3:checked + .block3{
+    opacity: 1;
+    z-index: 10;
+    transition: opacity 1s;
+}
+.i4:checked + .block4{
+    opacity: 1;
+    z-index: 10;
+    transition: opacity 1s;
+}
+.i5:checked + .block5{
+    opacity: 1;
+    z-index: 10;
+    transition: opacity 1s;
+}

@@ -1,0 +1,46 @@
+ul li a, body ul li a:visited{
+    display: block;
+    text-align: center;
+    border: 1px solid;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+}
+li{
+    width: 10vw;
+    font-size: 50px;
+    background: rgb(225, 255, 154);
+}
+ul li{
+    float: left;
+    position: relative;
+}
+ul li ul{
+    display: none;
+}
+ul li:hover a{
+    background: red;
+}
+ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+ul li:hover ul li a.hide{
+    background: blue;
+}
+ul li:hover ul li ul{
+    display: none;
+}
+ul li:hover ul li a{
+    display: block;
+    background: #ddd;
+}
+ul li:hover ul li a:hover{
+    background: green;
+}
+ul li:hover ul li:hover ul{
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
