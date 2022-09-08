@@ -1,0 +1,17 @@
+body{
+    font-family: "Tahoma";
+    font-style: italic;
+    font-size: 3vh;
+}
+select{
+    height: 3vh;
+    width: 3vw;
+}
+button{
+    height: 3vh;
+    width: 10vw;
+}
+input{
+    height: 2.45vh;
+    width: 20vw;
+}
