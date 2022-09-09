@@ -13,5 +13,12 @@ button{
 }
 input{
     height: 2.45vh;
+    width: 13vw;
+}
+td{
+    border: 1px solid black;
     width: 20vw;
+}
+tr{
+    background-color: rgb(255, 255, 255);
 }
