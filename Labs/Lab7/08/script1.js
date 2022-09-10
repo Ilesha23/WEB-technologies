@@ -1,5 +1,10 @@
 "use strict";
 
+let list = document.getElementById("list");
+let addBut = document.getElementById("b1");
+let delBut = document.getElementById("b2");
+let inp = document.getElementById("inp")
+
 function changeBg(e){
     if (window.getComputedStyle(e.target).backgroundColor == "rgb(255, 255, 255)") {
         e.target.style.backgroundColor = "rgb(125, 125, 230)";
@@ -8,11 +13,28 @@ function changeBg(e){
     else{
         e.target.style.backgroundColor = "rgb(255, 255, 255)";
         e.target.style.color = "black";
-    }    
+    }
+    
+    let items = list.getElementsByTagName("li");
+    for(let i = 0; i < items.length; ++i){
+        delBut.disabled = true;
+        if (window.getComputedStyle(items[i]).color == "rgb(255, 0, 0)") {
+            delBut.disabled = false;
+            return;
+        }
+    }
 }
 document.querySelector("ul").addEventListener("click", function(e){
     changeBg(e);
 })
+
+document.querySelector("input").addEventListener("input", updateVal);
+function updateVal(e){
+    addBut.disabled = false;
+    if(e.target.value == ""){
+        addBut.disabled = true;
+    }
+}
 
 function add(){
     let newLine = document.createElement("li");
@@ -20,7 +42,12 @@ function add(){
         newLine.innerHTML = document.querySelector('input').value;
         document.getElementById("list").appendChild(newLine);
     }
+    inp.value = "";
+    addBut.disabled = true;
 }
+
+
+
 function del(){
     let arr = Array.from(document.querySelectorAll("li"));
     for(let i = 0; i < arr.length; i++){
@@ -28,4 +55,5 @@ function del(){
             arr[i].remove();
         }
     }
+    delBut.disabled = true;
 }

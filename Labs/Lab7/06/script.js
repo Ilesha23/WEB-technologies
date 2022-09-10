@@ -9,8 +9,6 @@ function add(){
         newTd.innerHTML = arr[i].value;
         newLine.appendChild(newTd);
     }
-    //newLine.innerHTML = document.querySelector('input').value;
-    //document.getElementById("list").appendChild(newLine);
 }
 function del(){
     document.querySelector('table > tr').remove();
