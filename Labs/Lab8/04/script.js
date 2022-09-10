@@ -85,3 +85,9 @@ function sortDown(){
     arr2 = arr.slice();
     out(arr);
 }
+
+function copy(){
+    arr2 = arr2.slice(Math.floor(arr2.length / 2), arr2.length + 1).reverse();
+    arr = arr2.slice();
+    out(arr);
+}

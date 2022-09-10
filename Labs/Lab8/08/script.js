@@ -2,6 +2,10 @@
 
 let p = document.getElementById("p");
 let l = document.getElementById("length");
+let f = document.getElementById("filt")
+let s = document.getElementById("stat");
+let m = document.getElementById("mod");
+let c = document.getElementById("check");
 let arr = [];
 let arr2 = [];
 let inp1 = document.getElementById("inp1");
@@ -84,4 +88,69 @@ function sortDown(){
     arr.push.apply(arr, arr2.slice(inp2.value, arr2.length));
     arr2 = arr.slice();
     out(arr);
+}
+
+function copy(){
+    arr2 = arr2.slice(Math.floor(arr2.length / 2), arr2.length + 1).reverse();
+    arr = arr2.slice();
+    out(arr);
+}
+
+function filt(){
+    f.innerHTML = "Filter: "
+    let i = 0;
+    arr2.forEach(function(elem, index){
+        if (index % 2 == 0) {
+            f.innerHTML += elem + ", ";
+            i++;
+        }
+    })
+}
+
+function stat(){
+    s.innerHTML = "Statistics: "
+    let i = 0;
+    arr2.forEach(function(elem){
+        if (elem % 2 == 0) {
+            i++;
+        }
+    })
+    s.innerHTML += i;
+}
+
+function mod(){
+    m.innerHTML = "Modification: "
+    arr2.forEach(function(elem){
+        if (elem > 0) {
+            m.innerHTML += Math.sqrt(elem).toFixed(2) + ", ";
+        }
+        else{
+            m.innerHTML += Math.cbrt(elem).toFixed(2) + ", ";
+        }
+    })
+}
+
+function check(){
+    let b1 = false, b2 = false;
+    c.innerHTML = "Check: "
+    arr2.forEach(function(elem){
+        if (elem % 3 != 0) {
+            b1 = false;
+        }
+        if (elem % 3 == 0) {
+            b2 = true;
+        }
+    })
+    if (b1 == false) {
+        c.innerHTML += "all - no, ";
+    }
+    else{
+        c.innerHTML += "all - yes, ";
+    }
+    if (b2) {
+        c.innerHTML += "one - yes";
+    }
+    else{
+        c.innerHTML += "one - no";
+    }
 }

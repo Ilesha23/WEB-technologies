@@ -43,9 +43,13 @@ function del(){
 }
 
 function change(){
-    arr2[Math.floor(arr2.length / 2) - 1] *= -1;
+    if(arr.length % 2 == 0){
+        arr2[Math.floor(arr2.length / 2) - 1] *= -1;
+    }
+    else{
+        arr2[Math.floor(arr2.length / 2)] *= -1;
+    }
     arr = arr2.slice();
     out(arr);
 }
-
 //Math.random() * (max - min) + min;
