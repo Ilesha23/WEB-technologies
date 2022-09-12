@@ -1,0 +1,50 @@
+body{
+    font-family: "Tahoma";
+    font-style: italic;
+    font-size: 2vh;
+    padding: 0;
+    margin: 0;
+}
+select{
+    height: 3vh;
+    width: 3vw;
+}
+button{
+    position: absolute;
+    height: 3vh;
+    width: 10vw;
+    top: 48vh;
+}
+input{
+    height: 2.45vh;
+    width: 15vw;
+}
+div{
+    position: absolute;
+    width: 18vw;
+    height: 32vh;
+    background: rgb(139, 176, 255);
+}
+#d2{
+    right: 0;
+}
+#d3{
+    bottom: 0;
+}
+#d4{
+    bottom: 0;
+    right: 0;
+}
+#start{
+    left: 39vw;
+}
+#stop{
+    right: 39vw;
+}
+img{
+    position: absolute;
+    z-index: 2;
+    width: 9vw;
+    top: 6vh;
+    left: 4.5vw;
+}
