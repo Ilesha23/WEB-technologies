@@ -20,6 +20,15 @@ class Company{
     }
 }
 
+class CompanyAddr extends Company{
+    #address = "address";
+    constructor(name = "def", account = 0, income = 0, addr){
+        super(name, account, income);
+        this.#address = addr;
+    }
+    get address(){ return this.#address; }
+}
+
 class SoilArea{
     #cipher = 0;
     #area = 0;
@@ -41,6 +50,16 @@ class SoilArea{
     show(){
         return `Cip: ${this.#cipher} Area: ${this.#area} Price: ${this.#price} Type: ${this.#soilType} `;
     }
+}
+
+class SoilAreaSpending extends SoilArea{
+    #spending = 0;
+    constructor(cipher = 0, area = 0, price = 0, soilType = 0, spend){
+        super(cipher, area, price, soilType);
+        this.#spending = spend;
+    }
+    get spending(){return this,this.#spending;}
+
 }
 
 class SoilUsage{
@@ -413,11 +432,13 @@ function stat(){
 
 
 
-let arrComp = [], arrSoil = [], arrUse = [];
+let arrComp = [], arrSoil = [], arrUse = [], arrC2 = [], arrS2 = [];
 for (let i = 0; i < 20; i++) {
     arrComp[i] = new Company(`name${20-i}`, i, i);
     arrSoil[i] = new SoilArea(20-i, i, 20-i, i);
     arrUse[i] = new SoilUsage(i, i, i, i, i);
+    arrC2[i] = new CompanyAddr(`name${20-i}`, i, i, `addr${i}`);
+    arrS2[i] = new SoilAreaSpending(20-i, i, 20-i, i, i*i);
 }
 
 
