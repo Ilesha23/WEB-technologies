@@ -1,0 +1,93 @@
+body{
+    font-family: "Tahoma";
+    font-style: italic;
+    font-size: 2vh;
+}
+button{
+    height: 3vh;
+    width: 10vw;
+}
+select{
+    width: 15vw;
+    font-size: 2vh;
+}
+input{
+    height: 2.5vh;
+}
+button{
+    position: absolute;
+}
+#b1{
+    height: 10vh;
+    width: 20vw;
+    right: 50vw;
+    /* display: none; */
+}
+#b2{
+    height: 7vh;
+    width: 15vw;
+    right: 52vw;
+    top: 2vh;
+    /* display: none; */
+}
+#b3{
+    height: 4vh;
+    width: 10vw;
+    right: 54vw;
+    top: 4vh;
+}
+#r1{
+    position: absolute;
+    left: 10vw;
+    width: 1.5vh;
+}
+#r2{
+    position: absolute;
+    left: 9.8vw;
+    width: 2vh;
+}
+#r3{
+    position: absolute;
+    left: 9.3vw;
+    width: 3vh;
+}
+div{
+    position: absolute;
+}
+#dd{
+    position: relative;
+    top: 50vh;
+}
+#d1{
+    width: 98.5vw;
+    height: 50vh;
+    background: #7fecff;
+}
+#d2{
+    width: 90vw;
+    height: 45vh;
+    left: 4vh;
+    top: 2.5vh;
+    background: rgb(255, 205, 111);
+}
+#d3{
+    width: 80vw;
+    height: 40vh;
+    left: 4vh;
+    top: 2.5vh;
+    background: rgb(116, 255, 111);
+}
+#d4{
+    width: 70vw;
+    height: 35vh;
+    left: 4vh;
+    top: 2.5vh;
+    background: rgb(162, 172, 161);
+}
+#d5{
+    width: 60vw;
+    height: 30vh;
+    left: 4vh;
+    top: 2.5vh;
+    background: rgb(246, 255, 116);
+}
