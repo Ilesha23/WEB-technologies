@@ -1,0 +1,64 @@
+{
+    "items": [
+        {
+            "cip": 0,
+            "area": 0,
+            "price": 0,
+            "soiltype": 0
+        },
+        {
+            "cip": 1,
+            "area": 1,
+            "price": 1,
+            "soiltype": 1
+        },
+        {
+            "cip": 2,
+            "area": 2,
+            "price": 2,
+            "soiltype": 2
+        },
+        {
+            "cip": 3,
+            "area": 3,
+            "price": 3,
+            "soiltype": 3
+        },
+        {
+            "cip": 4,
+            "area": 4,
+            "price": 4,
+            "soiltype": 4
+        },
+        {
+            "cip": 5,
+            "area": 5,
+            "price": 5,
+            "soiltype": 5
+        },
+        {
+            "cip": 6,
+            "area": 6,
+            "price": 6,
+            "soiltype": 6
+        },
+        {
+            "cip": 7,
+            "area": 7,
+            "price": 7,
+            "soiltype": 7
+        },
+        {
+            "cip": 8,
+            "area": 8,
+            "price": 8,
+            "soiltype": 8
+        },
+        {
+            "cip": 9,
+            "area": 9,
+            "price": 9,
+            "soiltype": 9
+        }
+    ]
+}
