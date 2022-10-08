@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item n="0">
+        <cip>0</cip>
+        <area>0</area>
+        <price>0</price>
+        <soiltype>0</soiltype>
+    </item>
+    <item n="1">
+        <cip>1</cip>
+        <area>1</area>
+        <price>1</price>
+        <soiltype>1</soiltype>
+    </item>
+    <item n="2">
+        <cip>2</cip>
+        <area>2</area>
+        <price>2</price>
+        <soiltype>2</soiltype>
+    </item>
+    <item n="3">
+        <cip>3</cip>
+        <area>3</area>
+        <price>3</price>
+        <soiltype>3</soiltype>
+    </item>
+    <item n="4">
+        <cip>4</cip>
+        <area>4</area>
+        <price>4</price>
+        <soiltype>4</soiltype>
+    </item>
+    <item n="5">
+        <cip>5</cip>
+        <area>5</area>
+        <price>5</price>
+        <soiltype>5</soiltype>
+    </item>
+    <item n="6">
+        <cip>6</cip>
+        <area>6</area>
+        <price>6</price>
+        <soiltype>6</soiltype>
+    </item>
+    <item n="7">
+        <cip>7</cip>
+        <area>7</area>
+        <price>7</price>
+        <soiltype>7</soiltype>
+    </item>
+    <item n="8">
+        <cip>8</cip>
+        <area>8</area>
+        <price>8</price>
+        <soiltype>8</soiltype>
+    </item>
+    <item n="9">
+        <cip>9</cip>
+        <area>9</area>
+        <price>9</price>
+        <soiltype>9</soiltype>
+    </item>
+</items>
