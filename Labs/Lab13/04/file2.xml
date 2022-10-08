@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item cip="0" area="0">
+        <price>0</price>
+        <soiltype>0</soiltype>
+    </item>
+    <item cip="1" area="1">
+        <price>1</price>
+        <soiltype>1</soiltype>
+    </item>
+    <item cip="2" area="2">
+        <price>2</price>
+        <soiltype>2</soiltype>
+    </item>
+    <item cip="3" area="3">
+        <price>3</price>
+        <soiltype>3</soiltype>
+    </item>
+    <item cip="4" area="4">
+        <price>4</price>
+        <soiltype>4</soiltype>
+    </item>
+    <item cip="5" area="5">
+        <price>5</price>
+        <soiltype>5</soiltype>
+    </item>
+    <item cip="6" area="6">
+        <price>6</price>
+        <soiltype>6</soiltype>
+    </item>
+    <item cip="7" area="7">
+        <price>7</price>
+        <soiltype>7</soiltype>
+    </item>
+    <item cip="8" area="8">
+        <price>8</price>
+        <soiltype>8</soiltype>
+    </item>
+    <item cip="9" area="9">
+        <price>9</price>
+        <soiltype>9</soiltype>
+    </item>
+    
+</items>
